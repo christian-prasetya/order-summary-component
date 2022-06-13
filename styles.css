@@ -30,10 +30,17 @@ main {
   background-color: var(--clr-neutral-veryPaleBlue);
   margin: 10% auto;
   width: 450px;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .content-container {
   padding: 20px 50px;
+}
+
+.image-container img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .header {
@@ -45,4 +52,9 @@ main {
 .header h1 {
   font-weight: var(--fw-bold);
   margin-top: 10px;
+  color: var(--clr-neutral-darkBlue);
+}
+
+.header p {
+  color: var(--clr-neutral-desaturatedBlue);
 }
