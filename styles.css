@@ -1,0 +1,18 @@
+/* Color variables */
+:root {
+  /* Primary Color */
+  --clr-primary-paleblue: hsl(225, 100%, 94%);
+  --clr-primary-brightblue: hsl(245, 75%, 52%);
+
+  /* Neutral Color */
+  --clr-neutral-veryPaleBlue: hsl(225, 100%, 98%);
+  --clr-neutral-desaturatedBlue: hsl(224, 23%, 55%);
+  --clr-neutral-darkBlue: hsl(223, 47%, 23%);
+
+  /* Fonts */
+  font-family: 'Red Hat Display', sans-serif;
+  --fw-normal: 500;
+  --fw-medium: 700;
+  --fw-bold: 900;
+  --fs-regular: 16px;
+}
